@@ -63,7 +63,7 @@ namespace Monopoly
             Console.WriteLine();
             Console.WriteLine("Initializer");
 
-            string questionsTruthOrDare = "C:\\Users\\elixi\\OneDrive\\Desktop\\Monopoly\\News-Scraper\\TruthOrDareQuestions.csv";
+            string questionsTruthOrDare = "..\\..\\..\\..\\News-Scraper\\TruthOrDareQuestions.csv";
             using (StreamReader sr1 = new StreamReader(questionsTruthOrDare))
             {
                 sr1.ReadLine();
@@ -93,8 +93,7 @@ namespace Monopoly
                 }
             }
 
-            string csvPath = "C:\\Users\\elixi\\OneDrive\\Desktop\\Monopoly\\MonopolyBoard.csv";
-            Console.WriteLine(csvPath);
+            string csvPath = "..\\..\\..\\..\\MonopolyBoard.csv";
 
             using (StreamReader sr = new StreamReader(csvPath))
             {
@@ -133,17 +132,16 @@ namespace Monopoly
 
         private void NameAssignment(int spaceIDSplit)
         {
+            var random = new Random();
             if (landingSpacesLogic.spaceGO.Contains(spaceIDSplit))
             {
                 _spaceName.Add("Pass Go!");
                 _spaceDescription.Add("Collect $200!");
-                Console.WriteLine(spaceIDSplit);
             }
             else if (landingSpacesLogic.spaceRailRoad.Contains(spaceIDSplit))
             {
                 _spaceName.Add("Railroad Crossing");
                 _spaceDescription.Add("Pay $200 to make dares of your own or Drink! CHOO CHOO");
-                Console.WriteLine(spaceIDSplit);
             }
             else if (landingSpacesLogic.spaceRegular.Contains(spaceIDSplit))
             {
@@ -151,7 +149,8 @@ namespace Monopoly
                 {
                     if (spaceIDSplit < questionsTruth.Count)
                     {
-                        _spaceDescription.Add(questionsTruth[spaceIDSplit]);
+                        var randomTruth = random.Next(1, questionsTruth.Count);
+                        _spaceDescription.Add(questionsTruth[randomTruth]);
                         _spaceName.Add("Truth");
                     }
                 }
@@ -159,7 +158,8 @@ namespace Monopoly
                 {
                     if (spaceIDSplit < questionsDare.Count)
                     {
-                        _spaceDescription.Add(questionsDare[spaceIDSplit]);
+                        var randomDare = random.Next(1, questionsDare.Count);
+                        _spaceDescription.Add(questionsDare[randomDare]);
                         _spaceName.Add("Dare");
                     }
                 }
@@ -169,55 +169,46 @@ namespace Monopoly
             {
                 _spaceName.Add("Chance");
                 SpaceDescription.Add("Feelin' lucky -- Punk?");
-                Console.WriteLine(spaceIDSplit);
             }
             else if (landingSpacesLogic.spaceComChest.Contains(spaceIDSplit))
             {
                 _spaceName.Add("Community Chest");
                 _spaceDescription.Add("Take $200 or 1 Sock from the person to your left.");
-                Console.WriteLine(spaceIDSplit);
             }
             else if (landingSpacesLogic.taxIncome.Contains(spaceIDSplit))
             {
                 _spaceName.Add("Taxed");
                 _spaceDescription.Add("Everybody pays $25");
-                Console.WriteLine(spaceIDSplit);
             }
             else if (landingSpacesLogic.spaceVisiting == spaceIDSplit)
             {
                 _spaceName.Add("Visiting");
                 _spaceDescription.Add("Your dad showed up to give this to you. Then left. Again.");
-                Console.WriteLine(spaceIDSplit);
             }
             else if (landingSpacesLogic.spaceCompanyElectric == spaceIDSplit)
             {
                 _spaceName.Add("The Electric");
                 _spaceDescription.Add("Bust out some dance moves, the person to your right chooses the dance.");
-                Console.WriteLine(spaceIDSplit);
             }
             else if (landingSpacesLogic.spaceSafeZone == spaceIDSplit)
             {
                 _spaceName.Add("SAFE!");
                 _spaceDescription.Add("Take a deep breath. You need it.");
-                Console.WriteLine(spaceIDSplit);
             }
             else if (landingSpacesLogic.spaceCompanyWater == spaceIDSplit)
             {
                 _spaceName.Add("Drink some water");
                 _spaceDescription.Add("Seriously, you need it. Thirsty Hoe.");
-                Console.WriteLine(spaceIDSplit);
             }
             else if (landingSpacesLogic.spaceJail == spaceIDSplit)
             {
                 _spaceName.Add("Jail");
                 _spaceDescription.Add("You are left with nothing but a shot of tequila... 3 of them.. 1 for each time you don't roll doubles ");
-                Console.WriteLine(spaceIDSplit);
             }
             else if (landingSpacesLogic.spaceTaxSuper == spaceIDSplit)
             {
                 _spaceName.Add("Super Tax");
                 _spaceDescription.Add("The bet is $100 each. Was it really worth it? Everybody roll, highest gets the pot.");
-                Console.WriteLine(spaceIDSplit);
             }
             else
             {
