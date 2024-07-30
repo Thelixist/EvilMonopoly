@@ -1,0 +1,24 @@
+{
+  "name": "news-scraper",
+  "version": "1.0.0",
+  "description": "Scrapes news article information for easy import",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "news",
+    "article",
+    "monopoly",
+    "nodejs",
+    "api"
+  ],
+  "author": "rshackelford@thelixist.com",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "exceljs": "^4.4.0",
+    "express": "^4.19.2",
+    "request": "^2.88.2"
+  }
+}

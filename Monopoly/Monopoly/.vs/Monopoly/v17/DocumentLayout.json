@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\elixi\\OneDrive\\Desktop\\Monopoly\\Monopoly\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAC0A89-F30F-456E-992F-8C8860612C2B}|Monopoly.csproj|c:\\users\\elixi\\onedrive\\desktop\\monopoly\\monopoly\\landingspaceslogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAC0A89-F30F-456E-992F-8C8860612C2B}|Monopoly.csproj|solutionrelative:landingspaceslogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAC0A89-F30F-456E-992F-8C8860612C2B}|Monopoly.csproj|c:\\users\\elixi\\onedrive\\desktop\\monopoly\\monopoly\\landingspaces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAC0A89-F30F-456E-992F-8C8860612C2B}|Monopoly.csproj|solutionrelative:landingspaces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAC0A89-F30F-456E-992F-8C8860612C2B}|Monopoly.csproj|c:\\users\\elixi\\onedrive\\desktop\\monopoly\\monopoly\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAC0A89-F30F-456E-992F-8C8860612C2B}|Monopoly.csproj|solutionrelative:player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAC0A89-F30F-456E-992F-8C8860612C2B}|Monopoly.csproj|c:\\users\\elixi\\onedrive\\desktop\\monopoly\\monopoly\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAC0A89-F30F-456E-992F-8C8860612C2B}|Monopoly.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LandingSpacesLogic.cs",
+              "DocumentMoniker": "C:\\Users\\elixi\\OneDrive\\Desktop\\Monopoly\\Monopoly\\LandingSpacesLogic.cs",
+              "RelativeDocumentMoniker": "LandingSpacesLogic.cs",
+              "ToolTip": "C:\\Users\\elixi\\OneDrive\\Desktop\\Monopoly\\Monopoly\\LandingSpacesLogic.cs",
+              "RelativeToolTip": "LandingSpacesLogic.cs",
+              "ViewState": "AQIAAAgAAAAAmZmZmZktwBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T16:20:56.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LandingSpaces.cs",
+              "DocumentMoniker": "C:\\Users\\elixi\\OneDrive\\Desktop\\Monopoly\\Monopoly\\LandingSpaces.cs",
+              "RelativeDocumentMoniker": "LandingSpaces.cs",
+              "ToolTip": "C:\\Users\\elixi\\OneDrive\\Desktop\\Monopoly\\Monopoly\\LandingSpaces.cs",
+              "RelativeToolTip": "LandingSpaces.cs",
+              "ViewState": "AQIAAMwAAAAAAAAAAAAQPZAAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T19:03:27.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\elixi\\OneDrive\\Desktop\\Monopoly\\Monopoly\\Player.cs",
+              "RelativeDocumentMoniker": "Player.cs",
+              "ToolTip": "C:\\Users\\elixi\\OneDrive\\Desktop\\Monopoly\\Monopoly\\Player.cs",
+              "RelativeToolTip": "Player.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T14:21:08.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\elixi\\OneDrive\\Desktop\\Monopoly\\Monopoly\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\elixi\\OneDrive\\Desktop\\Monopoly\\Monopoly\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAIIAAAAAAAAAAAAqwJEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T18:47:48.695Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
